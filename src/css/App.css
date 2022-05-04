@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #3f51b5, #5968c5, #727fd5, #8a97e5, #a3b0f4);
+    background-repeat: no-repeat;
+}
