@@ -19,8 +19,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
     gap: 1.2em;
 }
 
@@ -29,34 +28,35 @@
     display: block;
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     border-radius: 0.4em;
-    max-width: 49%;
+    max-width: 33%;
 }
 
 .about.container.background {
     display: block;
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     border-radius: 0.4em;
-    max-width: 100%;
+    max-width: 67%;
 }
 
 .about.container.profile {
     display: block;
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     border-radius: 0.4em;
-    max-width: 49%;
+    max-width: 33%;
 }
 
 .about.container > div > h3 {
-    padding: 20px 0 0 17px;
+    padding: 20px 0 0 20px;
+    font-size: 1.5em;
 }
 
 .about.container .info.text {
-    padding: 4px 0 0 17px;
-    margin-bottom: 2em;
+    padding: 9px 17px 3em 20px;
+    font-size: 0.97em;
 }
 
 .about.container .profile.text {
-    padding: 0.6em 0 6.15em 17px;
+    padding: 1em 0 6em 20px;
 }
 
 .about.container .profile.text a {
@@ -73,30 +73,40 @@
 }
 
 .about.container .background.text {
-    padding: 4px 0 0.5em 17px;
+    padding: 9px 17px 1.9em 21px;
+}
+
+.about.container .background.text ul {
+    margin-left: 1.2em;
 }
 
 @media screen and (max-width: 1200px) {
     .about.container.info {
-        max-width: 100%;
+        max-width: 75%;
     }
 
     .about.container.profile {
-        max-width: 100%;
+        max-width: 75%;
+    }
+
+    .about.container.background {
+        max-width: 75%;
+        margin-bottom: 3em;
     }
 }
 
 @media screen and (max-width: 900px){
     .about.container.info {
-        max-width: 90%;
+        max-width: 75%;
     }
 
     .about.container.profile {
-        max-width: 90%;
+        max-width: 75%;
     }
 
     .about.container.background {
-        max-width: 90%;
+        max-width: 75%;
+        margin-bottom: 3em;
     }
 }
 

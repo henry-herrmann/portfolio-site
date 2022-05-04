@@ -40,13 +40,15 @@ function Projects(){
             </div>
 
             <div className="projects container">
-                {
-                    repos.map((repo) =>{
-                        return (
-                        <ProjectCard name={repo.name} description={repo.topics} />
-                        )
-                    })
-                }
+                <div className="projects container display">
+                    {
+                        repos.map((repo) =>{
+                            return (
+                            <ProjectCard name={repo.name} description={repo.topics} />
+                            )
+                        })
+                    }
+                </div>
             </div>
         </div> 
     );

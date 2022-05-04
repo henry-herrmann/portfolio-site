@@ -30,7 +30,7 @@ function About(){
                             <li>Dart</li>
                             <li>PHP</li>
                         </ul>
-
+                        <br></br>
                         <p>My programming career pretty much started with developing Minecraft plugins in Java, where I developed various minigames and other enhancements to the gameplay of my own server. Later on I learnt JavaScript due to the syntax similarities with Java which made it easier for me to get into this new language. As of now, JS is currently my most used language due to Rest-API development being very convenient with NodeJS. In March 2022, I started with mobile app development for a school project and ended up programming a whole app for a school trip we did.</p>
                     </div>
                 </div>

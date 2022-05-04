@@ -12,12 +12,16 @@
 }
 
 .projects.container{
-    margin-top: 3vh;
+    margin-top: 1vh;
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
     justify-content: center;
+    gap: 1em;
     margin-bottom: 50px;
+}
+
+.projects.container.display {
+    width: 70%;
 }
 
 .loading {
