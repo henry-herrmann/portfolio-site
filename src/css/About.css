@@ -93,6 +93,10 @@
         max-width: 75%;
         margin-bottom: 3em;
     }
+
+    .about.title {
+        margin-top: 8vh;
+    }
 }
 
 @media screen and (max-width: 900px){

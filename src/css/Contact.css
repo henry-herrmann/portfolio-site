@@ -64,6 +64,10 @@
     .contact.container.box{
         max-width: 75%;
     }
+
+    .contact.title {
+        margin-top: 8vh;
+    }
 }
 
 @media screen and (max-width: 900px){
