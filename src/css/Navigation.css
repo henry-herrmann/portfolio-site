@@ -78,6 +78,11 @@ nav ul li a:hover {
 
 
 @media (max-width: 900px){
+  nav {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+  }
   .check {
     display: block;
   }

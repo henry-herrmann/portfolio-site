@@ -3,7 +3,6 @@
     position: absolute;
     top: 27%;
     left: 50%;
-    display: block;
     text-align: center;
     color: white;
     transform: translate(-50%, -50%)
@@ -33,7 +32,6 @@
 .heading .card{
     position: relative;
     cursor: pointer;
-    background-color: transparent;
     border: none;
     margin-left: 1%;
     margin-right: 1%;
@@ -121,23 +119,38 @@
 
 @media (max-width: 942px){
 
-    .heading.boxes {
-        position: relative;
-        margin-top: 83vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-        justify-content: center;
+    .heading.text{
+        position: initial;
         top: 0;
+        left: 0;
+        transform: none;
+        margin-top: 8vh;
+        padding: 7em 0em 6em 0em;
+        text-align: center;
+        color: white;
+    }
+    
+    .heading.text h1{
+        font-size: 2.6rem;
+        font-weight: 500;
+        line-height: .9;
     }
 
-    .heading.text {
-        margin-top: 4vh;
+    .home.container {
+        width: 100%;
+    }
+
+    .heading.boxes {
+        position: initial;
+        transform: none;
+        left: 0;
+        top: 0;
+        flex-direction: column;
+        align-items: center;
     }
 
     .card{
-        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .heading .card .face.face1{
