@@ -29,6 +29,7 @@
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     border-radius: 0.4em;
     max-width: 33%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .about.container.background {
@@ -36,6 +37,7 @@
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     border-radius: 0.4em;
     max-width: 67%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .about.container.profile {
@@ -43,6 +45,7 @@
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     border-radius: 0.4em;
     max-width: 33%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .about.container > div > h3 {
