@@ -15,13 +15,6 @@ function Contact() {
                         <a href="mailto:henry@herrmann.page">Email me</a>
                     </div>
                 </div>
-                <div className="contact container box">
-                    <h3>Discord</h3>
-                    <div className="contact text">
-                        <p>Join my discord server!</p>
-                        <a href="https://link.rjks.us/support">Discord server</a>
-                    </div>
-                </div>
             </div>
         </div>
     )
