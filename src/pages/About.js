@@ -11,7 +11,7 @@ function About(){
                 <div className="about container info">
                     <h3>Personal info</h3>
                     <div className="info text">
-                        <p>Hey, I'm Henry and I'm a computer science student. <br></br>As of right now, I regularly work on some private projects with the aim to advance in programming languages and to tackle every day issues I encounter.</p>
+                        <p>Hey, I'm Henry and I'm a computer science student. <br></br>I frequently work on various projects ranging from backend to full app solutions.</p>
                     </div>
                 </div>
                 <div className="about container profile">
@@ -21,17 +21,16 @@ function About(){
                     </div>
                 </div>
                 <div className="about container background">
-                    <h3>Programming background</h3>
+                    <h3>My programming career</h3>
                     <div className="background text">
                         <p>Languages I use:</p>
                         <ul>
                             <li>Java</li>
                             <li>JavaScript</li>
                             <li>Dart</li>
-                            <li>PHP</li>
                         </ul>
                         <br></br>
-                        <p>My programming career pretty much started with developing Minecraft plugins in Java, where I developed various minigames and other enhancements to the gameplay of my own server. Later on I learnt JavaScript due to the syntax similarities with Java which made it easier for me to get into this new language. As of now, JS is currently my most used language due to Rest-API development being very convenient with NodeJS. In March 2022, I started with mobile app development for a school project and ended up programming a whole app for a school trip we did.</p>
+                        <p>My programming career mostly started with developing Minecraft plugins in Java. Later on I had the motivation to extend my programming skills and therefore learnt JavaScript due to the syntax similarities with Java. As of now, JS is currently my most used language as I mainly create my REST-APIs with NodeJS. Earlier in 2022, app development became one of my interests as I developed a project using Flutter.</p>
                     </div>
                 </div>
             </div>

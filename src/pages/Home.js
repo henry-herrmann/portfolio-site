@@ -15,7 +15,7 @@ function Home(){
             <div className="heading">
                 <div className="heading text">
                     <h1>Henry Herrmann - Software Development</h1>
-                    <p>Java, JS, Dart and PHP developer.</p>
+                    <p>Java, JS and Dart developer.</p>
                 </div>
                 <div className="home container">
                     <div className="heading boxes">
@@ -28,7 +28,7 @@ function Home(){
                             </div>
                             <div className="face face2">
                                 <div className="content">
-                                    <p>Ever since I first learned Java, I always searched for new projects to develop. Here's an overview of my current projects.</p>
+                                    <p>Ever since I first learned Java, I always desired new projects to create and programming languages to learn. Here's an overview of my current projects.</p>
                                     <div>Read More</div>
                                 </div>
                             </div>
