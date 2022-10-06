@@ -19,10 +19,6 @@ function Impressum() {
                             45883 Gelsenkirchen<br /> 
                         </p>
                         <br />
-                        <p> 
-                            <strong>Vertreten durch: </strong><br /> 
-                            Henry Herrmann<br /> 
-                        </p>
                         <br />
                         <p>
                             <strong>Kontakt:</strong> <br />
