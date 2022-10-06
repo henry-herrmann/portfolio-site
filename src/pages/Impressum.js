@@ -18,7 +18,6 @@ function Impressum() {
                             Ludwig-Dürr-Weg 9<br /> 
                             45883 Gelsenkirchen<br /> 
                         </p>
-                        <br />
                         <p>
                             <strong>Kontakt:</strong> <br />
                             Telefon: +49 15678 712364<br />
